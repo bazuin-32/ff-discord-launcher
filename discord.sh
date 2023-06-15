@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 page="$(mktemp --suffix '.html')"
 
