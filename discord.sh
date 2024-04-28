@@ -16,7 +16,7 @@ cat > "${page}" << EOF
 </html>
 EOF
 
-firefox --new-window "${page}"
+firefox-devedition --new-window "${page}" || firefox --new-window "${page}"
 
 sleep 5
 rm "${page}"
